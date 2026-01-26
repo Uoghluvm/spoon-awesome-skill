@@ -8,8 +8,8 @@ A curated collection of high-quality Claude Code skills for SpoonOS development,
 |------------|--------|--------|---------|
 | [SpoonOS Skills](./spoonos-skills/) | 8 | 🟢 Complete | Vibe Coding for agent development |
 | [Web3 Skills](./web3-skills/) | 11 | 🟢 Complete | Blockchain integrations for agents |
-| [Web2 Skills](./web2-skills/) | 6 | 🟡 Placeholder | API & service integrations |
-| [Dev Skills](./dev-skills/) | 6 | 🟡 Placeholder | Development workflow tools |
+| [Web2 Skills](./web2-skills/) | 6 | 🔵 Open for Contributions | API & service integrations |
+| [Dev Skills](./dev-skills/) | 6 | 🔵 Open for Contributions | Development workflow tools |
 
 ## Two Skill Collections, Two Purposes
 
@@ -157,33 +157,33 @@ Copy these skills to `.agent/skills/` and your skill agents will automatically l
 
 [View Web3 Skills Documentation →](./web3-skills/README.md)
 
-### Web2 Skills (6 skills) — Open for Contributions 🟡
+### Web2 Skills (6 skills) — Open for Contributions 🔵
 
 **Traditional API and service integrations for SpoonOS agents.**
 
 | Skill | Description | Status |
 |-------|-------------|--------|
-| [API Integration](./web2-skills/api-integration/) | REST, GraphQL, webhooks | 🟡 Placeholder |
-| [Database](./web2-skills/database/) | SQL, NoSQL, vector DBs | 🟡 Placeholder |
-| [Messaging](./web2-skills/messaging/) | Slack, Discord, Email, SMS | 🟡 Placeholder |
-| [Cloud Services](./web2-skills/cloud-services/) | AWS, GCP, Azure | 🟡 Placeholder |
-| [Monitoring](./web2-skills/monitoring/) | Prometheus, Grafana, alerts | 🟡 Placeholder |
-| [Storage](./web2-skills/storage/) | S3, GCS, file management | 🟡 Placeholder |
+| [API Integration](./web2-skills/api-integration/) | REST, GraphQL, webhooks | 🔵 Accepting PRs |
+| [Database](./web2-skills/database/) | SQL, NoSQL, vector DBs | 🔵 Accepting PRs |
+| [Messaging](./web2-skills/messaging/) | Slack, Discord, Email, SMS | 🔵 Accepting PRs |
+| [Cloud Services](./web2-skills/cloud-services/) | AWS, GCP, Azure | 🔵 Accepting PRs |
+| [Monitoring](./web2-skills/monitoring/) | Prometheus, Grafana, alerts | 🔵 Accepting PRs |
+| [Storage](./web2-skills/storage/) | S3, GCS, file management | 🔵 Accepting PRs |
 
 [View Web2 Skills Documentation →](./web2-skills/README.md)
 
-### Dev Skills (6 skills) — Open for Contributions 🟡
+### Dev Skills (6 skills) — Open for Contributions 🔵
 
 **Development workflow and tooling skills for all developers.**
 
 | Skill | Description | Status |
 |-------|-------------|--------|
-| [Code Review](./dev-skills/code-review/) | Automated review, security scanning | 🟡 Placeholder |
-| [Documentation](./dev-skills/documentation/) | README, API docs, changelogs | 🟡 Placeholder |
-| [Refactoring](./dev-skills/refactoring/) | Extract, rename, dead code removal | 🟡 Placeholder |
-| [Debugging](./dev-skills/debugging/) | Error analysis, log parsing | 🟡 Placeholder |
-| [Testing](./dev-skills/testing/) | Test generation, coverage analysis | 🟡 Placeholder |
-| [Performance](./dev-skills/performance/) | Profiling, optimization | 🟡 Placeholder |
+| [Code Review](./dev-skills/code-review/) | Automated review, security scanning | 🔵 Accepting PRs |
+| [Documentation](./dev-skills/documentation/) | README, API docs, changelogs | 🔵 Accepting PRs |
+| [Refactoring](./dev-skills/refactoring/) | Extract, rename, dead code removal | 🔵 Accepting PRs |
+| [Debugging](./dev-skills/debugging/) | Error analysis, log parsing | 🔵 Accepting PRs |
+| [Testing](./dev-skills/testing/) | Test generation, coverage analysis | 🔵 Accepting PRs |
+| [Performance](./dev-skills/performance/) | Profiling, optimization | 🔵 Accepting PRs |
 
 [View Dev Skills Documentation →](./dev-skills/README.md)
 

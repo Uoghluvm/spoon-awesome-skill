@@ -197,9 +197,20 @@ Example:
 Recommendation: Gas prices are moderate. Good time for non-urgent transactions."
 ```
 
-### Screenshots (Optional)
+### Screenshots (Required)
 
-[Attach screenshots if applicable]
+**You MUST include screenshots showing the running example output.**
+
+Attach screenshots that clearly show:
+1. The agent running with your skill loaded
+2. The input prompt being processed
+3. Tool execution and intermediate outputs
+4. The final response from the agent
+
+Example screenshot requirements:
+- Terminal/console output showing execution
+- Clear, readable text
+- Full output visible (no truncation)
 
 ## Checklist
 
@@ -208,7 +219,7 @@ Recommendation: Gas prices are moderate. Good time for non-urgent transactions."
 - [ ] At least one script in `scripts/` directory
 - [ ] Scripts follow SpoonOS BaseTool pattern
 - [ ] Environment variables documented
-- [ ] Demo shows real agent execution
+- [ ] **Screenshots of running example included**
 - [ ] No API keys or secrets committed
 ```
 
@@ -312,19 +323,6 @@ during off-peak hours (typically 2-6 AM UTC).
 - All sensitive data via environment variables
 - Input validation on all parameters
 - Safe error messages (no stack traces to users)
-
-### Testing (Recommended)
-
-Include tests in a `tests/` directory:
-
-```
-your-skill/
-├── scripts/
-├── tests/
-│   ├── test_main_tool.py
-│   └── conftest.py
-└── ...
-```
 
 ## Review Process
 
