@@ -1,6 +1,9 @@
 ---
 name: documentation-generator
 description: Automatically generate project documentation from Python source code. Use when creating README, API docs, or architecture diagrams from docstrings and type hints.
+version: 1.0.0
+author: UOGH from ETHPanda
+tags: [documentation, api-docs, code-analysis, python, dev-tools]
 ---
 
 # Documentation Generator
@@ -25,6 +28,12 @@ python scripts/doc_generator.py
 | `README.md` | Project overview with structure summary |
 | `API.md` | Function signatures, docstrings, type hints |
 | `ARCHITECTURE.md` | Dependency graphs, class hierarchy |
+
+## Scripts
+
+| Script | Purpose |
+|--------|---------|
+| [doc_generator.py](scripts/doc_generator.py) | Core documentation engine with AST analysis |
 
 ## Usage
 
@@ -108,4 +117,5 @@ class CustomDocGenerator(DocumentationGeneratorTool):
 
 ## References
 
-- `scripts/doc_generator.py` - Core implementation with ASTAnalyzer
+- [ast-analysis.md](references/ast-analysis.md) - AST parsing technical details
+- [output-formats.md](references/output-formats.md) - Documentation output format specs
